@@ -1,0 +1,400 @@
+body {
+    background-color: #040404;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Navigation Section */
+
+.container-fluid {
+    padding: 3% 10% 0%;
+}
+
+.navbar {
+    background-color: #040404;
+    padding: 2rem 4.5rem 1.3rem;
+}
+
+.navbar-toggler {
+    border-color: rgb(93, 96, 239);
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2893, 96, 239, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.logo {
+    width: 60%;
+}
+
+.nav-item {
+    padding: 0 15px;
+}
+
+.nav-link {
+    color: #D9D9D9;
+    font-size: 1.1rem;
+}
+
+.home {
+    color: #5D60EF;
+}
+
+.nav-link:hover {
+    color: #5D60EF;
+}
+
+.sign-in {
+    padding: 8px 30px;
+    border-radius: 7px;
+    background-color: #5D60EF;
+}
+
+/* Hero Section */
+
+.hero-text {
+    padding: 7%;
+    margin-top: 20px;
+}
+
+.hero-heading {
+    color: #E5E5E5;
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin: 5% 3% 5% 0;
+}
+
+.hero-subheading {
+    color: #D0D0D0;
+    font-size: 0.9rem;
+    width: 90%;
+}
+
+
+.nft {
+    color: #5D60EF;
+}
+
+.hero-img {
+    width: 90%;
+    padding: 7%;
+    margin-left: 5%;
+    margin-top: 20%;
+}
+
+.explore-btn {
+    padding: 10px 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #5D60EF;
+    color: #F6F6F6;
+    margin: 5% 3% 5% 0;
+}
+
+.explore-btn:hover {
+    background-color: #8182e9;
+}
+
+.create-btn {
+    padding: 10px 50px;
+    border-radius: 10px;
+    border: 1px solid #5D60EF;
+    color: #F6F6F6;
+}
+
+.create-btn:hover {
+    background-color: #8182e9;
+    border: none;
+}
+
+
+/* Top Collection Section */
+
+.collection-heading {
+    color: #F6F6F6;
+    padding: 10% 7% 1% 5%;
+}
+
+.collection-more {
+    color: #5D60EF;
+    text-align: right;
+    padding: 2% 3% 1% 7%;
+    margin-top: -78px;
+    text-decoration: none;
+}
+
+.collection-img {
+    width: 85%;
+    padding: 5%;
+    margin: 30px;
+}
+
+/* Top Creators Section */
+
+.creator-div {
+    background-color: #171717;
+    margin: 2% 4%;
+    padding: 2%;
+}
+
+.creator-heading {
+    color: #F6F6F6;
+    padding: 10% 7% 1% 4%;
+}
+
+.creator-tag {
+    color: #F6F6F6;
+    margin-top: 10%;
+    font-weight: 300;
+}
+
+.creator-name {
+    color: #F6F6F6;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.follow-btn {
+    float: right;
+    background-color: #5D60EF;
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 30px;
+    border-radius: 10px;
+    margin-top: -55px;
+}
+
+.follow-btn:hover {
+    color: #fff;
+    background-color: #8182e9;
+}
+
+.creator-div img {
+    width: 25%;
+    float: left;
+    padding: 5%;
+    margin-top: 3%;
+}
+
+.link-container{
+    margin-top: 7%;
+    text-align: center;
+}
+
+.view-more {
+    text-decoration: none;
+    border: 1px solid #5D60EF;
+    padding: 10px 30px;
+    color: #E5E5E5;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.view-more:hover {
+    background-color: #8182e9;
+    color: #F6F6F6;
+    border: none;
+}
+
+.footer-section {
+    background-color: #0C0C0C;
+    margin-top: 10%;
+    padding: 5% 5% 0 3%;
+}
+
+.footer-logo {
+    width: 50%;
+    margin-bottom: 10%;
+}
+
+.footer-subtitle {
+    color: #B0B0B0;
+}
+
+.footer-link-heading {
+    margin-left: 10px;
+    color: #D9D9D9;
+    margin-bottom: 20%;
+}
+
+.footer-subscribe-heading {
+    color: #fff;
+    margin-bottom: 20%;
+}
+
+#footer ul li {
+    list-style-type: none;
+    padding: 10px;
+    margin-left: -30px;
+}
+
+#footer ul li a{
+    text-decoration: none;
+    color: #B0B0B0;
+}
+
+.subscribe-input {
+    background-color: #040404;
+    border: none;
+    color: #4D4D4D;
+    padding: 6px;
+}
+
+.subscribe-input:focus {
+    background-color: #040404;
+    color: #fff;
+    border-color: rgba(33, 39, 87, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(33, 39, 87, 0.8);
+    outline: 0 none;
+}
+
+.subscribe-btn {
+    background-color: #5D60EF;
+    color: #E5E5E5;
+    border: none;
+    border-radius: 10px;
+    padding: 7px;
+}
+ 
+.subscribe-btn:hover {
+    background-color: #8182e9;
+}
+
+.btn:focus,
+.btn:active{
+box-shadow:none !important;
+outline:0px !important;
+}
+
+.copyright {
+    color: #fff;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: #5D60EF;
+}
+
+
+/* Mobile Phone */
+
+@media screen and (max-width: 480px) {
+
+    .logo {
+        margin-left: -25%;
+    }
+
+    .navbar-toggler {
+        margin-right: -12%;
+    }
+
+    .nav-item {
+        text-align: center;
+    }
+
+    .sign-in-btn{
+        text-align: center;
+    }
+
+    .sign-in {
+        background: transparent;
+        border: 1px solid #5D60EF;
+    }
+
+    .sign-in:hover {
+        border: none;
+        background-color: #8182e9;
+
+    }
+
+    #hero-section .row {
+        padding-top: 20%;
+        text-align: center;
+    }
+
+    .hero-img {
+        margin-top: 10%;
+        width: 80%;
+    }
+
+    .collection-heading {
+        padding: 30% 7% 1% 7%;
+    }
+
+    .collection-more {
+        padding: 2% 7% 1% 7%;
+        margin-top: -50px;
+    }
+
+    .collection-img {
+        width:80%;
+        padding: 5%;
+        margin: 30px;
+    }
+
+    .creator-div {
+        margin: 2% 4%;
+        padding: 2%;
+        width: 90%;
+    }
+
+    .creator-heading {
+        color: #F6F6F6;
+        padding: 30% 7% 1% 7%;
+    }
+
+    .link-container {
+        text-align: center;
+    }
+
+    .footer-section {
+        margin-top: 20%;
+        padding: 5% 5% 0 5%;
+    }
+
+    .footer-logo {
+        width: 30%;
+    }
+
+    .footer-link-heading {
+        margin-top: 15%;
+        margin-left: 10px;
+        color: #D9D9D9;
+        margin-bottom: 5%;
+    }
+    
+    .footer-subscribe-heading {
+        margin-top: 15%;
+        color: #fff;
+        margin-bottom: 10%;
+    }
+    
+    .subscribe-input {
+        background-color: #040404;
+        border: none;
+        color: #4D4D4D;
+        padding: 10px;
+    }
+    
+    .subscribe-btn {
+        background-color: #5D60EF;
+        color: #E5E5E5;
+        border: none;
+        border-radius: 10px;
+    }
+     
+    .subscribe-btn:hover {
+        background-color: #8182e9;
+    }
+    
+    .copyright {
+        color: #fff;
+        margin-top: 10%;
+        text-align: center;
+    }
+
+}
